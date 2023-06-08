@@ -1,0 +1,169 @@
+@media screen and (max-width: 1199.99px) {
+    .wrapper {
+        margin: unset;
+        margin: 60px 30px 60px 30px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .personal_infor {
+        max-width: unset;
+        width: 100%;
+        background-color: white;
+        border-radius: 20px;
+
+        display: flex;
+        position: unset;
+
+
+    }
+
+
+
+    .personal_ava {
+        left: unset;
+        transform: unset;
+        margin-top: 60px;
+        margin-left: 60px;
+        filter: drop-shadow(0px 10px 22px rgba(0, 0, 0, 0.1));
+        border-radius: 20px;
+        position: unset;
+
+    }
+
+    .menu {
+        flex-direction: column;
+        top: unset;
+        right: unset;
+        left: -110px;
+        transform: scale(0.8);
+        transition: 0.5s ease-in-out;
+        padding: unset;
+        padding: 20px 30px 20px 30px;
+        position: fixed;
+        filter: drop-shadow(1px 10px 30px rgba(0, 0, 0, 0.1));
+    }
+
+    .menu:hover {
+        left: 0;
+    }
+
+    .menu_detail {
+        margin-right: unset;
+        margin-bottom: 20px;
+    }
+
+    .menu_detail:last-child {
+        margin-bottom: 0px;
+    }
+
+    .personal_content {
+        margin-left: 30px;
+        flex: 1;
+        margin-right: 60px;
+    }
+
+    .personal_infor_specific {
+        margin: unset;
+        margin-top: 30px;
+    }
+
+    .personal_social_network {
+        justify-content: unset;
+    }
+
+    .personal_job {
+        margin-left: 0px;
+    }
+
+    .personal_name {
+        margin: unset;
+        margin-top: 60px;
+    }
+
+    .personal_infor--item {
+        margin-right: unset;
+    }
+
+    .download_button {
+        margin: unset;
+        margin: 30px 0px 30px 0px;
+    }
+
+    .about_selection {
+
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .personal_infor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .personal_content {
+        margin: unset;
+    }
+
+    .download_button {
+
+        margin: 30px auto 30px;
+    }
+
+    .personal_social_network {
+        justify-content: center;
+    }
+
+    .personal_job {
+
+        margin: 15px auto 0 auto;
+    }
+
+    .personal_name {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .personal_ava {
+
+        margin: 60px auto 0px auto;
+    }
+
+    .skill_selection {
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+
+    .skill_selection_content:last-child {
+        margin: unset;
+        margin-top: 60px;
+    }
+
+    .skill_name_selection_content--header {
+        margin-top: 0px;
+    }
+
+    .skill_selection_content {
+
+        width: unset;
+    }
+
+    .progress {
+        flex-direction: column;
+    }
+
+    .progress_content {
+        width: unset;
+    }
+
+    .progress_content:last-child {
+        margin-left: unset;
+        margin-top: 60px;
+    }
+}
